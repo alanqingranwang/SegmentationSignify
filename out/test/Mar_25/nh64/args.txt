@@ -1,0 +1,16 @@
+{
+    "data_root": "./data/",
+    "transform": "four_crop",
+    "filename_prefix": "test",
+    "models_dir": "./out/",
+    "lr": 0.0001,
+    "batch_size": 32,
+    "epochs": 100,
+    "load_checkpoint": 0,
+    "log_interval": 1,
+    "gpu_id": 3,
+    "unet_hidden": 64,
+    "run_dir": "./out/test/Mar_25/nh64",
+    "ckpt_dir": "./out/test/Mar_25/nh64/checkpoints",
+    "filename": "./out/test/Mar_25/nh64/checkpoints"
+}
